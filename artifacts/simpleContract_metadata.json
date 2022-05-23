@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "retVal",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "setData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ether-smartcontract/SimpleContract.sol": "simpleContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ether-smartcontract/SimpleContract.sol": {
+			"keccak256": "0x64aa303a8da75122052d944def2118747cdeec526d766c6d0c0caf085f814ae5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://20ee079041605d2abde487f349978354e5104c38504bb76119469e09f4f5dc15",
+				"dweb:/ipfs/QmXBjT7p38Nyt45z71pKzvcfPAvfeRdWeRk1Ucu7LVDUQP"
+			]
+		}
+	},
+	"version": 1
+}
