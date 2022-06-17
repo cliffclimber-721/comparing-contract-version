@@ -1,17 +1,17 @@
 from difflib import SequenceMatcher
 
-print("================Input=================")
+print("=============== Input ================")
 firstbytecode = input("first input : ")
 secondbytecode = input("second input : ")
-print("================Length================")
+print("=============== Length ===============")
 first = list(firstbytecode)
 second = list(secondbytecode)
 
 def match_binary():
-    print("======================================")
+    print("=========== First Bytecode ==========")
     for idx1, value1 in enumerate(first):
         print("idx1", idx1, "value1", value1)
-    print("======================================")
+    print("=========== Second Bytecode ==========")
     for idx2, value2 in enumerate(second):
         print("idx2", idx2, "value2", value2)
     if value1 == value2:
@@ -26,5 +26,5 @@ print("second input length :", len(secondbytecode))
 showRatio = SequenceMatcher(None, firstbytecode, secondbytecode).ratio()
 
 match_binary()
-print("================Accuracy==============")
+print("=============== Accuracy =============")
 print("show accuracy:", showRatio)
