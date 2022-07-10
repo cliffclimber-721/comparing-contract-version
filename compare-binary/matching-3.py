@@ -1,7 +1,7 @@
 import re
 from difflib import SequenceMatcher
 
-def lengthOfbytecode(one, two):
+def bytecodeLength(one, two):
     one = len(one)
     two = len(two)
     print("first bytecode length:", one)
@@ -27,6 +27,9 @@ def countIt(one,two):
 firstbytecode = input("First Bytecode:")
 secondbytecode = input("Second Bytecode:")
 
+print("="*40)
 countIt(firstbytecode, secondbytecode)
+print("="*40)
 accuracy()
-lengthOfbytecode(firstbytecode, secondbytecode)
+print("="*40)
+bytecodeLength(firstbytecode, secondbytecode)
