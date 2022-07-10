@@ -1,3 +1,0 @@
-([('matching-3',
-   '/Users/skywalker721/Desktop/comparing-contract-version/compare-binary/dist/matching-3',
-   'EXECUTABLE')],)

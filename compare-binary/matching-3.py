@@ -5,6 +5,7 @@ def bytecodeLength(one, two):
     one = len(one)
     two = len(two)
     print("first bytecode length:", one)
+    print("="*40)
     print("second bytecode length:", two)
 
 def accuracy():
